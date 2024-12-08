@@ -1,0 +1,7 @@
+name: lrcget
+services:
+    lrcget:
+        ports:
+            - 3000:3000
+        image: shadowsdiethrice/lrcget-docker-kasmvnc:latest
+        command: bash
